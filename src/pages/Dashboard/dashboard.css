@@ -1,0 +1,108 @@
+.container-dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container-dashboard h1{
+    margin-top: 70px;
+}
+
+.tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.tarefas textarea{
+    width: 270px;
+    height: 100px;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    resize: none;
+}
+
+.tarefas textarea:focus{
+    outline: none;
+    border: none;
+}
+
+.tarefas button{
+    width: 270px;
+    height: 40px;
+    background-color: #3366ff;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.sair{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #fff;
+}
+
+.sair:hover{
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #fff;
+}
+
+.container-tarefas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.botoes{
+    margin: 5px 0 15px 0;
+
+}
+
+.botoes button{
+    background-color: #3366ff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.botoes .concluir{
+    margin-left: 5px;
+    background: transparent;
+    color: rgb(94, 255, 61);
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+}
+
+.container-tarefas{
+    width: 270px;
+}
+
+
